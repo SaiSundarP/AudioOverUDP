@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.16)
 project(AudioUDP
     VERSION 0.0.1
-    LANGUAGE C
+    LANGUAGES C
 )
 
 set (CMAKE_C_STANDARD 17)
