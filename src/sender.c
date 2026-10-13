@@ -62,8 +62,7 @@ int main(int argc, char *argv[])
         return 1;
     }
 
-    while ((bytes_read =
-            fread(audio_buffer,1,AUDIO_DATA_SIZE,audio_file)) > 0)
+    while ((bytes_read =fread(audio_buffer,1,AUDIO_DATA_SIZE,audio_file)) > 0)
     {
         header.magic = htonl(AUDIO_MAGIC);
 
